@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="biblioteka2.xsl"?>
+<biblioteka>
+    <dzial>
+            <nazwadzialu>Kryminalne</nazwadzialu>
+            <ksiazka>
+                <autor>
+                	<imie>Katarzyna</imie>
+                	<nazwisko>Wrona</nazwisko>
+                </autor>
+                <tytul>"Miasto grozy"</tytul>
+                <cena>65zl</cena>
+            </ksiazka>
+            
+            <ksiazka>
+                <autor><imie>Leon</imie>
+                	<nazwisko>Kanarek</nazwisko></autor>
+                <tytul>"Krew"</tytul>
+                <cena>55zl</cena>
+            </ksiazka>
+
+            <ksiazka>
+                <autor><imie>Barbara</imie>
+                	<nazwisko>Olech</nazwisko></autor>
+                <tytul>"Kwiat parpoci"</tytul>
+                <cena>45zl</cena>
+            </ksiazka>
+            <ksiazka>
+	                    <autor><imie>Jerzy</imie>
+	                    	<nazwisko>Jurkowski</nazwisko></autor>
+	                    <tytul>"Cisza"</tytul>
+	                    <cena>50zl</cena>
+            </ksiazka>
+            <ksiazka>
+	    	                    <autor><imie>Jan</imie>
+	    	                    	<nazwisko>Oberek</nazwisko></autor>
+	    	                    <tytul>"Mazur"</tytul>
+	    	                    <cena>53zl</cena>
+            </ksiazka>
+   </dzial>
+
+   <dzial> 
+            <nazwadzialu>Przygodowe</nazwadzialu>
+            <ksiazka>
+                <autor><imie>Hans</imie>
+                	<nazwisko>Baum</nazwisko></autor>
+                <tytul>"Wyprawa na oko"</tytul>
+                <cena>35zl</cena>
+            </ksiazka>
+            
+            <ksiazka>
+                <autor><imie>Lara</imie>
+                	<nazwisko>Smith</nazwisko></autor>
+                <tytul>"Dolina prawdy"</tytul>
+                <cena>20zl</cena>
+            </ksiazka>
+
+            <ksiazka>
+                <autor><imie>Brad</imie>
+                	<nazwisko>Lee</nazwisko></autor>
+                <tytul>"Szmaragdy"</tytul>
+                <cena>60zl</cena>
+            </ksiazka>
+    </dzial>
+    
+     <dzial> 
+                <nazwadzialu>Harlekiny</nazwadzialu>
+                <ksiazka>
+                    <autor><imie>Penelope</imie>
+                    	<nazwisko>Jhons</nazwisko></autor>
+                    <tytul>"Odnaleziona milosc"</tytul>
+                    <cena>35zl</cena>
+                </ksiazka>
+                
+                <ksiazka>
+                    <autor><imie>Anna</imie>
+                    	<nazwisko>Mather</nazwisko></autor>
+                    <tytul>"Niedyskrecja"</tytul>
+                    <cena>20zl</cena>
+                </ksiazka>
+    
+                <ksiazka>
+                    <autor><imie>Alice</imie>
+                    	<nazwisko>Robin</nazwisko></autor>
+                    <tytul>"Umowa z wiatrem"</tytul>
+                    <cena>60zl</cena>
+                </ksiazka>
+                 <ksiazka>
+		                    <autor><imie>Bruce</imie>
+		                    	<nazwisko>Sullen</nazwisko></autor>
+		                    <tytul>"Trzeci pocałunek"</tytul>
+		                    <cena>60zl</cena>
+                </ksiazka>
+    </dzial>
+</biblioteka>
+
