@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+        function nazwiskocheck(){
+                var string1=document.form1.nazwisko.value;
+                if(string1.length<4){document.getElementById("test1").innerHTML="Podaj  poprawne nazwisko";
+                }
+        }
+         function imiecheck(){
+                var string1=document.form1.nazwisko.value;
+                if(string1.length<4){
+                document.getElementById("test2").innerHTML ="Podaj poprawne imie";
+                         }
+         }
+        function emailcheck(){
+  var string1=document.form1.email.value;
+  if (string1.indexOf("@")==-1){
+  document.getElementById("test3").innerHTML="Prosze podac poprawny adres e-mail!";
+  document.form1.email.focus();}
+}
+         function rokstudiowcheck(){
+        if(document.form1.rokstudiow.value==0){document.getElementById("test4").innerHTML="Wybierz rok studiow!";}
+                  }
+</script>
+
+        <form name="form1">
+
+<table>
+  <tr>
+    <th><p>Nazwisko: (*pole wymagane)</p ></th>
+  </tr>
+    <tr>
+        <th><input type="text" size="20" name="nazwisko" onChange="nazwiskocheck()"/></th>
+        <th><th><div id="test1" style="color:red;"></div></th></th>
+    </tr>
+
+
+  <tr>
+    <th><p>Imie: (*pole wymagane)</p ></th>
+  </tr>
+  <tr>
+    <th> <input type="text" size="20" name="imie" onChange="imiecheck()"/><th>
+    <th><div id="test2" style="color:red;"></div></th>
+  </tr>
+
+<tr>
+    <th><p>Adres e-mail: (*pole wymagane)</p></th>
+  </tr>
+  <tr>
+    <th> <input type="text" size="20" name="email" onChange="emailcheck()" /><th>
+    <th><div id="test3" style="color:red;"></div></th>
+  </tr>
+<tr><th><p>Rok studiow: (*pole wymagane)</p></th></tr>
+<tr>
+    <th><select name="rokstudiow" size="1" onChange="rokstudiowcheck()">
+             <option value="0">Wybierz rok</option>
+             <option value="1">rok 1</option>
+             <option value="2">rok 2</option>
+             <option value="3">rok 3</option>
+   </th>
+ <th><th><div id="test4" style="color:red;"></div></th></th>
+ </tr>
+
+
+
+<tr>
+ <th><p>Uwagi: (pole nie wymagane)</p><textarea  name="uwagi" reow="3" cols="25"></textarea>><br/>
+
+      <input type="submit" name="B1" value="Submit" onclick="status(); "></th>
+</tr>
+
+</table>
+
+</form>
+
