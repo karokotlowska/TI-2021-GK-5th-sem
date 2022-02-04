@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  defer src="script.js"></script>
+    <link href="script.css" rel="stylesheet">
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>FRAKTALE SIERPIŃSKIEGO</h1>
+    </div>
+
+    <nav >
+        <ul class="nav">
+            <li><a class="navbar" href="#site1" >Zacznij tu</a></li>
+            <li><a class="navbar" href="#site2">Trójkąt Sierpińskiego</a></li>
+            <li><a class="navbar" href="#site3">Dywan Sierpińskiego</a></li>
+            <li><a class="navbar" href="#site4">Obliczenia</a></li>
+            <li><a class="navbar" href="#site5">Odkrywaj</a></li>
+        </ul>
+    </nav>
+
+    <div class="sites">
+        <div class="site1 row navsite" id="site1"> 
+            <article>
+                <h3 style="text-align: right;">Wacław Sierpiński</h3>
+                <p>  
+                    <img src="wac.jpg" alt="Waclaw Sierpinski" class="imageleft"/>Wacław Franciszek Sierpiński (ur. 14 marca 1882 w Warszawie, zm. 21 października 1969 tamże) – polski matematyk, jeden z czołowych przedstawicieli warszawskiej szkoły matematycznej i twórców polskiej szkoły matematycznej. Zajmował się teorią liczb, analizą matematyczną – zwłaszcza analizą rzeczywistą (teorią funkcji zmiennej rzeczywistej) i teorią miary, ogólną i opisową teorii mnogości, topologią mnogościową oraz teorią kategorii. Szczególne znaczenie mają jego prace na temat pewnika wyboru i hipotezy continuum.
+                </p> 
+                <p>"Królową nauk" zainteresował się w warszawskim gimnazjum. Pasję rozwijał studiując matematykę na Cesarskim Uniwersytecie Warszawskim od 1900 roku. Cztery lata później został nauczycielem matematyki. Posadę stracił rok później wskutek represji po przyłączeniu się do strajku szkolnego w czasie rewolucji 1905 roku.
+
+                    Przeniósł się wówczas do Krakowa, w którym polskość była znacznie bardziej akceptowana. Tam kontynuował naukę na Wydziale Filozoficznym Uniwersytetu Jagiellońskiego, gdzie zdobył doktorat. <img src="teorialiczb.jpg" alt="Teoria liczb" class="imageright-teoria"/>Powrócił do Warszawy w 1906 roku i przez dwa lata uczył w prywatnych szkołach. W 1908 habilitował się na Uniwersytecie Lwowskim. Został profesorem w wieku 28 lat. W 1918 roku przeniósł się na Uniwersytet Warszawski, z którym związał się do końca swojej naukowej aktywności.
+                    
+                    Podczas wojny polsko-bolszewickiej pracował w Wydziale Szyfrów Sztabu Głównego i przyczynił się do złamania przez Stefana Mazurkiewicza szyfru bolszewików. W dwudziestoleciu międzywojennym kontynuował karierę naukową. Był przeciwnikiem sanacyjnej ustawy jędrzejewiczowskiej, która ograniczała autonomię uniwersytetów.
+                    
+                    W czasie niemieckiej okupacji nauczał na zajęciach konspiracyjnego uniwersytetu, co karane było śmiercią. W tym czasie otrzymał propozycję objęcia katedry na madryckim uniwersytecie w bezpiecznej, neutralnej Hiszpanii. Odmówił.
+                    
+                    Po wojnie powrócił do pracy na uczelni. Przez dwie dekady był prezesem Warszawskiego Towarzystwa Naukowego, a po jego likwidacji został jednym z trzech wiceprezesów Polskiej Akademii Nauk.Był jednym z sygnatariuszy Listu 34, który sprzeciwiał sie cenzurze w PRL. Pod groźbą represji wycofał jednak później swoje poparcie dla tej inicjatywy. 
+                    
+                    Zmarł 9 października 1969. Pozostawił po sobie 720 prac oryginalnych, 107 artykułów i przemówień, 57 książek i broszur i 7 podręczników szkolnych.
+                    
+                    Cieszył się autorytetem w całej Europie. Tytułem profesora honoris causa obdarzyły go uniwersytety m.in. we Francji, Czechosłowacji, ZSRR. Międzynarodowa Unia Astronomiczna postanowiła upamiętnić matematyka nazywając jego imieniem krater na Księżycu.</p>
+            </article>
+            <p> Notatka na podstawie źródeł: 
+                <a href="https://www.polskieradio.pl/39/156/Artykul/1738959,Waclaw-Sierpinski-Badacz-zagadek-nieskonczonosci">KLIK</a>
+                <a href="https://pl.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski">KLIK</a>
+                <br>
+                Zdjecia: 
+                <a href="https://lubimyczytac.pl/ksiazka/4885385/teoria-liczb">KLIK</a>
+                <a href="https://pl.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski">KLIK</a>
+            </p>
+           
+	    </div>
+        <div class="site2 row navsite" id="site2"> 
+            <article>
+                <h3>Trójkąt Sierpińskiego (znany też jako uszczelka Sierpińskiego) to jeden z fraktali.</h3><p> Znany był na długo przed powstaniem tego pojęcia (patrz: Benoît Mandelbrot). Konstrukcja tego zbioru została podana przez polskiego matematyka Wacława Sierpińskiego w 1915 roku.
+Trójkąt Sierpińskiego otrzymuje się następująco: w trójkącie równobocznym łączy się środki boków, dzieląc go w ten sposób na cztery mniejsze trójkąty. Trójkąt środkowy usuwa się (bez boków), a wobec trzech pozostałych trójkątów operację się powtarza, dzieląc każdy z nich na cztery mniejsze trójkąty, usuwając środkowy (bez boków), a wobec pozostałych trójkątów czynności się powtarzają. Po każdym powtórzeniu tej operacji z figury zostają usunięte pewne punkty. Punkty, które nie zostaną usunięte, tworzą trójkąt Sierpińskiego.
+Fraktal ten można także utworzyć z trójkąta Pascala, zabarwiając na czarno jego nieparzyste liczby.</p>
+            
+
+            <img src="troj.png" alt="Transformacje trojkata" class="img-wiki-def"/>
+            
+                <p>
+                    Trójkąt Sierpińskiego otrzymuje się następująco: w trójkącie równobocznym łączy się środki boków, dzieląc go w ten sposób na cztery mniejsze trójkąty. Trójkąt środkowy usuwa się (bez boków), a wobec trzech pozostałych trójkątów operację się powtarza, dzieląc każdy z nich na cztery mniejsze trójkąty, usuwając środkowy (bez boków), a wobec pozostałych trójkątów czynności się powtarzają. Po każdym powtórzeniu tej operacji z figury zostają usunięte pewne punkty. Punkty, które nie zostaną usunięte, tworzą trójkąt Sierpińskiego.
+                </p>
+            </article>
+		    <canvas id="sierpinskiCanvas1" width="600" height="470" style="border:1px solid #000000;">
+                Towja przegladarka nie obsluguje elementu canvas.</canvas>
+
+		    <div class="animOption">
+			<ul>
+				<li><input type="button" class="btn" value="&#9658; Start Animacji" id="startAnimation1" onclick="startAnimation1()"></li>
+				<li><input type="button" class="btn" value="&#9632; Stop Animacji" id="stopAnimation1" onclick="stopAnimation1()"></li>
+			</ul>
+			
+			<p class="p-centering">	<b>Liczba rekurencji = <span id="rangeInfo1"></span></b>
+				<input type="range" min="1" max="3" value="2" id="myRange1" oninput="updateCanvas1()">
+			</p>
+            
+               <p> Wymiar fraktalny dywanu Sierpińskiego wynosi ln 8/ln 3 = 1,8928...
+            </p>
+            <p> Notatka na podstawie źródeł: 
+                <a href="https://pl.wikipedia.org/wiki/Tr%C3%B3jk%C4%85t_Sierpi%C5%84skiego">KLIK</a>
+                <br>
+                Zdjecie: 
+                <a href="https://pl.wikipedia.org/wiki/Tr%C3%B3jk%C4%85t_Sierpi%C5%84skiego#/media/Plik:Sierpinski_triangle_evolution.svg">KLIK</a>
+            </p>
+		    </div>
+            <script  src="sierpinskiTriangle.js"></script>
+            <script src="mainTriangle.js"></script>
+
+	    </div>
+        <div class="site3 row navsite" id="site3"> 
+            <article>
+                <img src="pros.png" alt="Dywan Sierpinskiego" class="imageright"/>
+                <h3>Dywan Sierpińskiego to fraktal otrzymany z kwadratu za pomocą rekurencyjnego dzielenia go na mniejsze części.</h3><p>Dokładniej, powstaje w wniku podzielenia go na dziewięć (3x3) mniejszych kwadratów, usunięcia środkowego kwadratu i ponownego rekurencyjnego zastosowania tej samej procedury do każdego z pozostałych ośmiu kwadratów. Nazwa pochodzi od nazwiska Wacława Sierpińskiego.</p>
+                <p>
+                    Najpierw rysujemy kwadrat, który dzielimy na dziewięć równych części i usuwamy środkowy kwadrat. Każdy z pozostałych ośmiu mniejszych kwadratów dzielimy znowu na dziewięć równych części i usuwamy środkowe kwadraty itd.
+                </p>
+                <br>
+                <h3>
+                    Definicja formalna (Źródło: <a href="https://pl.wikipedia.org/wiki/Dywan_Sierpi%C5%84skiego">wiki</a>)
+                </h3>
+                <img src="def.png" alt="definicja formalna" class="img-wiki-def"/>
+            </article>
+            
+            <canvas id="sierpinskiCanvas" width="600" height="470" >
+               Twoja przegladarka nie obsluguje elementu canvas.</canvas>
+        
+                <div class="animOption">
+                    <ul>
+                        <li><input type="button" class="btn" value="&#9658; Start Animacji" id="startAnimation" onclick="startAnimation()"></li>
+                        <li><input type="button" class="btn" value="&#9632; Stop Animacji" id="stopAnimation" onclick="stopAnimation()"></li>
+                    </ul>
+                    
+                    <p class="p-centering">	<b>Liczba rekurencji = <span id="rangeInfo"></span></b>
+                        <input type="range" min="1" max="4" value="2" id="myRange" oninput="updateCanvas()">
+                    </p>
+                    <p> Notatka na podstawie źródeł: 
+                        <a href="https://pl.wikipedia.org/wiki/Dywan_Sierpi%C5%84skiego">KLIK</a>
+                        <br>
+                        Zdjecie: 
+                        <a href="https://pl.wikipedia.org/wiki/Dywan_Sierpi%C5%84skiego#/media/Plik:Sierpinski6.png">KLIK</a>
+                    </p>
+                    <script src="sierpinskiSquare.js"></script>
+                   <script src="mainSquare.js"></script>
+                </div>
+                
+          
+        </div>
+
+
+        
+
+          <div class="site4 row navsite" id="site4" style="height: 200px;">
+            <div class="obliczenia" id="obliczenia">
+                <form id="liczbaRekurencjiForm">
+                    <label>Podaj liczbę rekurencji: </label>
+                    <input type="text"  id="liczbaRekurencji">
+                </form>
+            </div>
+          <div>
+              <input type="submit" class="wynik" value="Oblicz" onclick="startWorker()">
+          </div>
+            <div class="wynik" id="wynik">
+            </div>
+        </div>
+
+        <div class="site5 row navsite" id="site5" >
+            <p>Za pomocą fraktali można modelować
+                zjawiska występujące w przyrodzie takie jak
+                linie brzegowe, struktury komórkowe
+                czy złożone struktury polimerów. Za ich
+                pomocą bada się także ewolucję galaktyk i
+                powstawanie wszechświata. Mogą być również przedmiotem zabawy
+            przy pisaniu projektu z Technik Internetowych - czego efekt widać poniżej.</p>
+            <canvas id="canvas5" width="900" height="900" style="border:1px solid #000000; width: 70%;"></canvas>
+            <p>Aby dowiedzieć się więcej o fraktalach zachęcam do obejrzenia krótkiego filmiku zrealizowanego przez BBC, omawiającego fraktale występujące w przyrodzie.</p><br>
+            <video src="frac-video.mp4" controls></video><br>
+            <a href="https://www.youtube.com/watch?v=w_MNQBWQ5DI&ab_channel=BBCIdeas">LINK DO VIDEO -> KLIK</a>
+            <script src="s.js"></script>
+        </div>
+
+      
+        
+   
+            
+</div>
+    <footer><a href="mailto:kotlowska@student.agh.edu.pl" class="footer"><u>Karolina Kotlowska</u></a></footer>
+</body>
+</html>
