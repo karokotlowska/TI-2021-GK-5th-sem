@@ -1,0 +1,48 @@
+ <script type="text/javascript">
+        function validate(){
+                if ((document.form1.imie.value=="")||(document.form1.nazwisko.value=="")){
+                alert ("Należy wypełnić wszystkie pola wymagane!");
+                return false; }
+                else
+                return true;
+}
+        function nazwiskocheck(){
+                var string1=document.form1.nazwisko.value;
+                if(string1.length<4){alert("Podaj  poprawne nazwisko");
+                }
+        }
+         function imiecheck(){
+         var string1=document.form1.imie.value;
+                if(string1.length<4){
+                alert("Podaj poprawne imie");
+                         }
+         }
+        function emailcheck(){
+  var string1=document.form1.email.value;
+  if (string1.indexOf("@")==-1){
+  alert("Proszę podać poprawny adres e-mail!");
+  document.form1.email.focus();} 
+}
+         function rokstudiowcheck(){
+        if(document.form1.rokstudiow.value==0){alert("Wybierz rok studiow!");}
+                  }
+</script>
+
+        <form name="form1" onsubmit="return validate()">
+             <p>Nazwisko: (*pole wymagane)</p >
+             <input type="text" size="20" name="nazwisko" onblur="nazwiskocheck()"/><br/>
+             <p>Imie: (*pole wymagane)</p>
+             <input type="text" size="20" name="imie" onblur="imiecheck()" /><br/>
+             <p>Adres e-mail: (*pole wymagane)</p>
+             <input type="text" size="20" name="email" onblur="emailcheck()" /><br/>
+             <p>Rok studiow:</p>
+             <select name="rokstudiow" size="1" onblur="rokstudiowcheck()">
+             <option value="0">Wybierz rok</option>
+             <option value="1">rok 1</option>
+             <option value="2">rok 2</option>
+             <option value="3">rok 3</option>
+             </select><br/>
+            <p>Uwagi: (pole nie wymagane)</p>
+             <textarea  name="uwagi" reow="3" cols="25"></textarea>><br/>
+      <input type="submit" name="B1" value="Submit" onclick="status(); "><br>
+                </form>
