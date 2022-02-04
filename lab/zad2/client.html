@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Ajax: Serwis RESTful</title>
+      <link type="text/css" href="lab.css" rel="stylesheet">
+      <script src="rest.js" type="text/javascript"></script>
+   </head>
+   <body>
+     <div class="menu" style="text-align:center" >
+       <table border="1" bgcolor="gray">
+         <tr><th><big>Baza danych MongoDB. Operacje CRUD.</big></th></tr>
+       </table>
+       <br />
+       <form action="#">
+          <table><tr>
+            <td><input type="button" value="Zapis pomiaru do bazy" onclick="_insertForm()"/></td>
+            <td><input type="button" value="Odczyt wszystkich danych z urzadzen" onclick="_list()"/></td>
+            <td><input type="button" value="Odczyt pomiarow z danego urzadzenia" onclick="_searchForm()"/></td>
+            <td><input type="button" value="Odczyt pomiarow z danego przedzialu czasu" onclick="_searchFormDate()"/></td>
+            <td><input type="button" value="Usuniecie pomiarow z danego przedzialu czasu" onclick="_deleteElement()"/></td>
+            <td><input type="button" value="Modyfikacja pomiaru w bazie" onclick="_updateElement()"/></td>
+          </tr></table>
+       </form>
+     </div>
+     <div class="data" id="data"></div>
+     <div class="result" id="result"></div>
+    </body>
+</html>
